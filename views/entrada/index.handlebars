@@ -1,0 +1,43 @@
+<h5 class="mt-4">Entrada de produtos:</h5>
+<form action="/entrada/add" method="post">
+    
+    <div class="form-row mt-4">
+        <div class="col">
+            <label for="data">Data: </label>
+            <input type="date" name="data" id="data" class="form-control" required>
+        </div>
+        <div class="col">
+            <label for="hora">Hora: </label>
+            <input type="time" name="hora" id="hora" class="form-control" required>
+        </div>
+    </div>
+
+    <div class="form-row mt-4">
+        <div class="col">
+            <label for="transportadora">Transportadora: </label>
+            <input type="text" name="transportadora" id="transportadora" class="form-control" required>
+        </div>
+        <div class="col">
+            <label for="nota">Nota Fiscal:</label>
+            <input type="text" name="nota" id="nota" class="form-control" required>
+        </div>
+    </div>
+
+    <div class="form-row mt-4">
+        <div class="col">
+            <label for="produto">Produto: </label>
+            <input type="text" name="prdouto" id="produto" class="form-control" required>    
+        </div>
+        <div class="col">
+            <label for="empresa">Empresa: </label>
+            <input type="text" name="empresa" id="empresa" class="form-control" required>
+        </div>
+    </div>
+
+    <div class="form-row mt-4">
+        <div class="col text-right">
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </div>
+    </div>
+
+</form>
